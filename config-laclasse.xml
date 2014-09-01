@@ -1,5 +1,5 @@
 <Root xsi:noNamespaceSchemaLocation="http://telechargement.index-education.com/export/ModelesConfiguration_CAS.xsd">
-    <ENT Nom="MonENT-1" Localisation="Département du Rhône" Description="ENT piloté par l''intégrateur Département du Rhône" Url_Documentation="http://www.rhone.fr/colleges/ent_laclasse_com/ent_laclasse_com">
+    <ENT Nom="Laclasse.com" Localisation="Département du Rhône" Description="ENT du Département du Rhône - version 2" Url_Documentation="http://www.rhone.fr/colleges/ent_laclasse_com/ent_laclasse_com">
         <!--Configuration classique avec identification par identité, url serveur CAS mode standard-->
         <Url_ServeurCAS>
             <Standard RacineUrl="https://www.laclasse.com/sso"/>
