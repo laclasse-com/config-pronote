@@ -30,4 +30,35 @@
             </ChercherParIdentite>
         </ModeIdentificationPremiereConnexion>
     </ENT>
+    <ENT Nom="Laclasse.com Version 3" Localisation="Département du Rhône" Description="ENT du Département du Rhône - version 3" Url_Documentation="http://www.rhone.fr/colleges/ent_laclasse_com/ent_laclasse_com">
+        <!--Configuration classique avec identification par identité, url serveur CAS mode standard-->
+        <Url_ServeurCAS>
+            <Standard RacineUrl="https://v3.laclasse.com/sso"/>
+        </Url_ServeurCAS>
+        <ModeIdentificationPremiereConnexion>
+            <ChercherParIdentite AttributNom="nom" AttributPrenom="prenom" AttributDateNaissance="dateNaissance" AttributCodePostal="codePostal">
+                <ProfilUtilisateurs AttributProfilUtilisateur="categories">
+                    <Enseignants>
+                        <Valeur>National_3</Valeur>
+                    </Enseignants>
+                    <Eleves>
+                        <Valeur>National_1</Valeur>
+                    </Eleves>
+                    <Parents>
+                        <Valeur>National_2</Valeur>
+                    </Parents>
+                    <Entreprise>
+                    </Entreprise>
+                    <Academie>
+                        <Valeur>National_7</Valeur>
+                    </Academie>
+                    <VieScolaire>
+                        <Valeur>National_4</Valeur>
+                        <Valeur>National_5</Valeur>
+                        <Valeur>National_6</Valeur>
+                    </VieScolaire>
+                </ProfilUtilisateurs>
+            </ChercherParIdentite>
+        </ModeIdentificationPremiereConnexion>
+    </ENT>
 </Root>
